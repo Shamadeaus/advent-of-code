@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code",
+  "version": "0.0.1",
+  "description": "Solving the advent of code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "test"
+  },
+  "dependencies": {
+    "md5": "2.0.0",
+    "lodash": "4.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamadeaus/advent-of-code.git"
+  },
+  "author": "Shamadeaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shamadeaus/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/Shamadeaus/advent-of-code#readme"
+}
