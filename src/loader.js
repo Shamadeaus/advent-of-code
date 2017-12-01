@@ -1,11 +1,11 @@
 const fs = require('fs')
 
 module.exports = {
-    start: function (day) {
-        let result = this.load(day)
+    start: function (year, day) {
+        let result = this.load(year, day)
         console.log(result)
     },
-    load: function (day) {
-        return require(`./puzzles/Day${day}/Day${day}`).run(fs.readFileSync(`src/puzzles/Day${day}/input.txt`).toString())
+    load: function (year, day) {
+        return require(`./puzzles${year}/Day${day}/Day${day}`).run(fs.readFileSync(`src/puzzles${year}/Day${day}/input.txt`).toString())
     }
 }
